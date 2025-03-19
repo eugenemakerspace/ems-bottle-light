@@ -2,7 +2,7 @@ include <cell_sizes.scad>
 include <insert_shapes.scad>
 $fn=48;
 
-pcb_dims = [10.75,10.75,7.0];
+pcb_dims = [10.75,10.75,7.25];
 
 inserts(1);
 
