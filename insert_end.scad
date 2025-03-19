@@ -1,10 +1,12 @@
 include <cell_sizes.scad>
 include <insert_shapes.scad>
+
 $fn=48;
+count=1;
 
 pcb_dims = [10.75,10.75,7.25];
 
-inserts(1);
+inserts(count);
 
 module inserts(count=1) {
     slot_w = 20;
